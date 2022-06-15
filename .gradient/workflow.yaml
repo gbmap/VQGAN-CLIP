@@ -22,4 +22,4 @@ jobs:
     uses: script@v1
     with:
       script: python /inputs/repo/workflow_generate.py
-      image: pytorch/pytorch:1.11.0-py3
+      image: tensorflow/tensorflow:1.14.0-py3
